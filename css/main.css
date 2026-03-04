@@ -2,7 +2,7 @@
 CSS Guide
 1. General Styles
 2. Header
-3. Responsive Image Method Section
+3. Responsive Image Method
 7. Custom Queries
 8. Tablet Queries
 9. Desktop Queries
@@ -24,4 +24,16 @@ h1 {
     color: #fff;
     text-align: center;
     font-size: 35px;
+}
+
+/* ---3. Responsive Image Method--- */
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 30px;
 }
