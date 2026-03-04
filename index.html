@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
     <title>Responsive Images</title>
 </head>
 <body>
+    <header class="grid-con center-grid-con">
+        <h1 class="col-span-full">Responsive Images</h1>
+    </header>
+
+    <section id="srcset" class="grid-con center-grid-con">
+        <div class="col-span-full">
+            <h2>Image Tag and Srcset</h2>
+            <p>The image tag and the srcset attribute are the most common ways to change the resolution of images across multiple devices. It displays the same image to all users, but the file size will change depending on the viewport width of the user's device. This responsive image method helps to display the best image quality and increase the loading speed of websites.</p>
+        </div>
+    </section>
+
+    <section id="picture" class="grid-con center-grid-con">
+        <div class="col-span-full">
+            <h2 class="col-span-full">Picture Element</h2>
+            <p>The picture element is often used for art direction, which is used when the content of the image needs to be changed, not just the resolution. This responsive image method could be used when an image displays as a protrait on mobile and landscape on desktop devices.</p>
+
+        </div>
+    </section>
+
+    <section id="background" class="grid-con center-grid-con">
+        <div class="col-span-full">
+            <h2 class="col-span-full">Background Attribute</h2>
+            <p>The background attribute is used for decorative purposes because it is a CSS property and not an HTML element. Screen readers are unable to see this image method, which means it's important not to use it on any necessary content like product images. This responsive image method is better used for textures, patterns, or small decorative features.</p>
+        </div>
+    </section>
     <script src="js/main.js"></script>
 </body>
 </html>
