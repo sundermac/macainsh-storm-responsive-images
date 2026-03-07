@@ -19,8 +19,19 @@
 
     <section id="srcset" class="grid-con center-grid-con">
         <div class="col-span-full">
-            <h2>Image Tag and Srcset</h2>
-            <p>The image tag and the srcset attribute are the most common ways to change the resolution of images across multiple devices. It displays the same image to all users, but the file size will change depending on the viewport width of the user's device. This responsive image method helps to display the best image quality and increase the loading speed of websites.</p>
+            <h2>Image Tag and Srcset</h2> 
+            
+            <img
+            sizes="100vw"
+            srcset="
+            images/penguin_kcttwm_c_scale,w_412.jpg 412w,
+            images/penguin_kcttwm_c_scale,w_944.jpg 944w,
+            images/penguin_kcttwm_c_scale,w_1323.jpg 1323w,
+            images/penguin_kcttwm_c_scale,w_1920.jpg 1920w"
+            src="penguin_kcttwm_c_scale,w_1920.jpg"
+            alt="close up of penguin with wings out">
+
+            <p>The image tag and the srcset attribute are the most common ways to change the resolution of images across multiple devices. It displays the same image to all users, but the file size will change depending on the viewport width of the user's device. This responsive image method helps to display the best image quality and increase the loading speed of websites.</p>        
         </div>
     </section>
 
