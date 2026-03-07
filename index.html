@@ -36,11 +36,14 @@
     </section>
 
     <section id="picture" class="grid-con center-grid-con">
-        <div class="col-span-full">
-            <h2 class="col-span-full">Picture Element</h2>
-            <p>The picture element is often used for art direction, which is used when the content of the image needs to be changed, not just the resolution. This responsive image method could be used when an image displays as a protrait on mobile and landscape on desktop devices.</p>
+        <h2 class="col-span-full">Picture Element</h2>
 
-        </div>
+        <picture class="col-start-2 col-end-4 m-col-span-full">
+            <source srcset="images/large_puffin.jpg" media="(min-width: 768px)"> 
+            <img src="images/small_puffin.jpg" alt="puffin holding fish">
+        </picture>
+
+        <p class="col-span-full">The picture element is often used for art direction, which is used when the content of the image needs to be changed, not just the resolution. This responsive image method could be used when an image displays as a protrait on mobile and landscape on desktop devices.</p>
     </section>
 
     <section id="background" class="grid-con center-grid-con">
