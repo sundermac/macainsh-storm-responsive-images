@@ -48,7 +48,15 @@ p {
    background-repeat: no-repeat;
 }
 
-/* ---5. Tablet Queries--- */
+/* ---5. Footer--- */
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* ---6. Tablet Queries--- */
 @media screen and (min-width:768px) {
     .background-img {
         background-image: url("../images/medium_penguin_water.jpg");
@@ -56,7 +64,7 @@ p {
     }
 }
 
-/* ---6. Desktop Queries--- */
+/* ---7. Desktop Queries--- */
 @media screen and (min-width:1200px) {
     .background-img {
         background-image: url("../images/large_penguin_water.jpg");
